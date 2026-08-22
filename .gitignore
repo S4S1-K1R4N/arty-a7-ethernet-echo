@@ -1,0 +1,28 @@
+# Build and run artifacts
+build/
+*.bit
+*.dcp
+*.rpt
+
+# Vivado / Xilinx generated logs and temporary directories
+.Xil/
+xsim.dir/
+*.jou
+*.log
+*.pb
+*.str
+clockInfo.txt
+
+# Simulator outputs
+sim/sim_out.vvp
+*.vcd
+*.wdb
+
+# Compiled binaries
+software/test_echo
+test_echo
+
+# OS / Editor artifacts
+.DS_Store
+*.swp
+*~
